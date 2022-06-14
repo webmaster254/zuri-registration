@@ -1,0 +1,101 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/bg-intro-desktop.png);
+    background-color:hsl(0, 100%, 74%,0.7) ;
+    font-size: 16px;
+    margin: 0;
+}
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  
+}
+* {
+    box-sizing: border-box;
+  }
+  .main{
+      width: 100%;
+      display:flex;
+      justify-content: center;
+      justify-items: center;
+      padding:50px;
+
+
+  }
+  .info{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color:white;
+      margin-right: 15px;
+      padding-left:40px;
+
+  }
+  .info h1{
+      line-height: 1.5cm;
+      padding-bottom: 0;
+  }
+  .info p{
+      padding-top:5px;
+  }
+  
+
+  .registration-form{
+      margin-right: 10px;
+  }
+  form{
+      background-color: white;
+      padding:20px;
+  }
+  .claim {
+    background-color:hsl(248, 32%, 49%);
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+  }
+  .claim span{
+      font-weight: bold;
+  }
+input{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px ;
+  border-style: groove;
+  background: white;
+}
+
+  .registerbtn {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .services a{
+    color: hsl(0, 100%, 74%);
+    text-align: center;
+  }
+
+  @media screen and (max-width: 702px){
+      .main{
+          display:grid;
+      }
+      .info h1{
+          font-size: 25px;
+          line-height: 1.0cm;
+      }
+      
+  }
